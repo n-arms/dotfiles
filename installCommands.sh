@@ -13,3 +13,7 @@ fi
 if ! type "eza" > /dev/null; then
 	cargo install eza
 fi
+
+if ! type "make" > /dev/null; then
+	sudo pacman -S --noconfirm make
+fi

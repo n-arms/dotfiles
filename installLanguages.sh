@@ -14,3 +14,7 @@ if ! type "nvm" > /dev/null; then
 	
 	nvm install --lts
 fi
+
+if ! type "stack" > /dev/null; then
+	curl -sSL https://get.haskellstack.org/ | sh
+fi

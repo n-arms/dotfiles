@@ -9,3 +9,7 @@ if ! type "z" > /dev/null; then
 	curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 fi
 
+# install eza
+if ! type "eza" > /dev/null; then
+	cargo install eza
+fi
